@@ -6,12 +6,18 @@
 """
 from duck import WildDuck, RubberDuck
 
-w = WildDuck()
-w.quack()
-w.fly()
-w.display()
 
-r = RubberDuck()
-r.quack()
-r.fly()
-r.display()
+def main():
+    w = WildDuck()
+    w.quack()
+    w.fly()
+    w.display()
+
+    r = RubberDuck()
+    r.quack()
+    r.fly()
+    r.display()
+
+
+if __name__ == '__main__':
+    main()
