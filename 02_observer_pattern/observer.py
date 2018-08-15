@@ -13,6 +13,8 @@ class Observer(object):
 
     @abstractmethod
     def update(self):
+        """更新信息
+        """
         pass
 
 

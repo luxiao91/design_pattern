@@ -15,14 +15,20 @@ class Subject(object):
 
     @abstractmethod
     def register(self, observer):
+        """注册成员
+        """
         pass
 
     @abstractmethod
     def remove(self, observer):
+        """移除成员
+        """
         pass
 
     @abstractmethod
     def notify(self):
+        """将信息通知给成员
+        """
         pass
 
 
