@@ -3,8 +3,7 @@
 from abc import ABCMeta, abstractmethod
 
 
-class Beverage(object):
-    __metaclass__ = ABCMeta
+class Beverage(metaclass=ABCMeta):
 
     def __init__(self):
         pass

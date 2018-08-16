@@ -3,8 +3,7 @@
 from abc import ABCMeta, abstractmethod
 
 
-class FlyBehavior(object):
-    __metaclass__ = ABCMeta
+class FlyBehavior(metaclass=ABCMeta):
 
     def __init__(self):
         pass

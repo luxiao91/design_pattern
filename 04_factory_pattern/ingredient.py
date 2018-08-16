@@ -5,8 +5,7 @@
 from abc import ABCMeta, abstractmethod
 
 
-class IngredientFactory(object):
-    __metaclass__ = ABCMeta
+class IngredientFactory(metaclass=ABCMeta):
 
     def __init__(self):
         pass

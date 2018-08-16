@@ -8,13 +8,12 @@ from quack import QuackBehavior, Quack, Squeak
 from fly import FlyBehavior, FlyWithWings, FlyNoWay
 
 
-class Duck(object):
+class Duck(metaclass=ABCMeta):
     """鸭子抽象类
 
     因为不能像java一样进行变量声明
     所以在更改属性时限定值类型
     """
-    __metaclass__ = ABCMeta
 
     def __init__(self):
         self._quack_behavior = None

@@ -3,8 +3,7 @@
 from abc import ABCMeta, abstractmethod
 
 
-class QuackBehavior(object):
-    __metaclass__ = ABCMeta
+class QuackBehavior(metaclass=ABCMeta):
 
     def __init__(self):
         pass

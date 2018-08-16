@@ -3,8 +3,7 @@
 from abc import ABCMeta, abstractmethod
 
 
-class Pizza(object):
-    __metaclass__ = ABCMeta
+class Pizza(metaclass=ABCMeta):
 
     def __init__(self):
         self.name = ""

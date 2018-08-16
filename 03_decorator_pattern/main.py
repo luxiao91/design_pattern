@@ -1,4 +1,7 @@
 """装饰者模式：动态地将责任附加到对象上
+
+其实可以直接用装饰器，也是python更好用的方法
+然而懒得写了，就这么着吧
 """
 from beverage import CoffeeA, CoffeeB
 from condiment import MilkA, MilkB

@@ -7,8 +7,7 @@ from abc import ABCMeta, abstractmethod
 from random import choice
 
 
-class Subject(object):
-    __metaclass__ = ABCMeta
+class Subject(metaclass=ABCMeta):
 
     def __init__(self):
         pass

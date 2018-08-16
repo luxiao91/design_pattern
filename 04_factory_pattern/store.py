@@ -8,8 +8,7 @@ from pizza import CheesePizza, ClamPizza
 from ingredient import NYIngredientFactory, CHIngredientFactory
 
 
-class PizzaStore(object):
-    __metaclass__ = ABCMeta
+class PizzaStore(metaclass=ABCMeta):
 
     def __init__(self):
         pass
